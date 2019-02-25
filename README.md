@@ -1,7 +1,7 @@
 ## MoviesDB
 ___
 
-*IMDb* like website where you can search for a movie and get Poster and information related it.
+Basic *IMDb* like website where you can search for a movie and get Poster and information related it.
 
 ### Technology Used :-
 - Javascript and Jquery
