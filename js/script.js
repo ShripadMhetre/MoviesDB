@@ -8,7 +8,7 @@ $(document).ready(function() {
 function moviesList(searchText) {
     //used "www.omdbapi.com" which is opensource movies database collection
     //apikey is my personal registration key.
-    var url = 'http://www.omdbapi.com/?s=' + searchText + '&apikey=aa93b9f0';
+    var url = 'https://www.omdbapi.com/?s=' + searchText + '&apikey=aa93b9f0';
     
     //Used 'axios' which is promise-based HTTP client for Javascript
     $.get(url)
@@ -44,7 +44,7 @@ function sessionId(id) {
 
 function movieDetails() {
     var movieId = sessionStorage.getItem('movieId');
-    var url = 'http://www.omdbapi.com/?i=' + movieId + '&apikey=aa93b9f0';
+    var url = 'https://www.omdbapi.com/?i=' + movieId + '&apikey=aa93b9f0';
     $.get(url, function(movie) {
         console.log(movie);
         var output = `
